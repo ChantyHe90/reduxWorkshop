@@ -6,3 +6,7 @@ const initialState = {
     starWarsData= []
     // first it is empty now we want to fill data in >> ACTION :D 
 }
+
+export const starWarsReducer = (state =initialState ) => {
+
+}
