@@ -1,3 +1,9 @@
-import { combineReducer } from "redux";
-
-export default combineReducer({});
+import { combineReducers } from "redux";
+import { starWarsReducer } from "./components/starWars/starWarsReducer";
+import { weatherReducer } from "./components/weather/weatherReducer";
+export default combineReducers({
+  starWarsReducer: starWarsReducer,
+  //   variable : value
+  // whatever we get will be set as the var >> store.js
+  weatherReducer: weatherReducer
+});
